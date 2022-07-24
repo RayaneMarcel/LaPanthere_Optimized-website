@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    text-align: center;
 }
 
 .icon-lg {
@@ -701,7 +702,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -860,7 +861,11 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+
+
+
+
+(max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -1069,7 +1074,12 @@ p {
 }
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .social {
+        justify-content: space-between;
+    }
 }
 .img-responsive{
     margin: auto;
