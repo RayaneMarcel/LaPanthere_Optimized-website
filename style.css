@@ -1034,33 +1034,47 @@ h4 {
         text-align: center;
     }
 }
-.btn-d{
-    color: #FFFFFF!important;
-}
-.black ,.icon-md{
-    color: #000000!important;
-}
-.bloc__title-h2{
+.bloc__title {
     max-width: 62rem;
     margin: auto;
+    margin-bottom: 25px;
 }
-.citation{
-    font-size: 18px;
-    max-width: 51rem;
+
+.portfolio__title {
+    max-width: 42rem;
     margin: auto;
 }
-.citation>span{
+
+.quote {
+    font-size: 18px;
+    max-width: 51rem;
+    margin: -25px auto auto auto;
+}
+.quote>span {
     font-weight: bold;
     font-style: italic;
 }
-.portfolio__title-h2{
-    max-width: 42rem;
-    margin:auto;
+.black {
+    color: black!important;
+}
+p {
+    font-size: 14px;
+} 
+@media (max-width: 767px) {
+    .portfolio__title, .bloc__title, .quote {
+        margin: 0px 20px 0px 20px;
+        font-size: 18px;
+    }
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .social {
+        justify-content: space-between;
+    }
 }
 .img-responsive{
     margin: auto;
-}
-.flex{
-    display: flex;
-    justify-content: center;
 }
