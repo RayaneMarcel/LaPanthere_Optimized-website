@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -1038,11 +1038,13 @@ h4 {
     max-width: 62rem;
     margin: auto;
     margin-bottom: 25px;
+    font-weight: bolder;
 }
 
 .portfolio__title {
     max-width: 42rem;
     margin: auto;
+    font-weight: bolder;
 }
 
 .quote {
@@ -1057,13 +1059,13 @@ h4 {
 .black {
     color: black!important;
 }
-p {
-    font-size: 14px;
+#bloc-6 p {
+    font-size: 18px;
 } 
 @media (max-width: 767px) {
     .portfolio__title, .bloc__title, .quote {
-        margin: 0px 20px 0px 20px;
-        font-size: 18px;
+        margin: -12px 20px -17px 20px;
+        font-size: 20px;
     }
 }
 .social {
